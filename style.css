@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 30px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.calculator #dButtons button:hover {
+    background-color: #e5c0c0;
+    color: black;
+}
+
+#spaceCalc {
+    display: flex;
+    justify-content: center;
+
+}
+
+.calculator {
+    border: 2px solid;
+    width: 325px;
+    height: 469px;
+    background: #000000;
+    border-radius: 20px;
+    margin-top: 2rem;
+
+}
+
+#resultado {
+    width: 294px;
+    height: 62px;
+    background: #D9D9D9;
+    border-radius: 69px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+    font-size: 30px;
+    margin: 20px 5px 4px 10px;
+
+}
+
+.calculator #zero {
+    width: 149px;
+    height: 70px;
+    text-align: left;
+    padding: 20px;
+}
+
+.calculator #dButtons .gray {
+    background-color: #D9D9D9;
+    color: black;
+}
+
+.calculator #dButtons .black {
+    background-color: #303131;
+    color: white;
+}
+
+.calculator #dButtons .orange {
+    background-color: #F59906;
+    color: white;
+    margin-right: 3px;
+}
+
+footer #icons img{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+}

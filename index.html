@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="spaceCalc">
+        <div class="calculator">
+                <p id="resultado"></p>
+
+            <div id="dButtons">
+                <button type="submit" class="gray" onclick="cclear()">AC</button>
+                <button type="submit" class="gray" onclick="dwrite('-')">±</button>
+                <button type="submit" class="gray" onclick="dwrite('%')">%</button>
+                <button type="submit" class="orange" onclick="dwrite('/')">÷</button>
+                <button type="submit" class="black" onclick="dwrite('7')">7</button>
+                <button type="submit" class="black" onclick="dwrite('8')">8</button>
+                <button type="submit" class="black" onclick="dwrite('9')">9</button>
+                <button type="submit" class="orange" onclick="dwrite('*')">X</button>
+                <button type="submit" class="black" onclick="dwrite('4')">4</button>
+                <button type="submit" class="black" onclick="dwrite('5')">5</button>
+                <button type="submit" class="black" onclick="dwrite('6')">6</button>
+                <button type="submit" class="orange" onclick="dwrite('-')">-</button>
+                <button type="submit" class="black" onclick="dwrite('1')">1</button>
+                <button type="submit" class="black" onclick="dwrite('2')">2</button>
+                <button type="submit" class="black" onclick="dwrite('3')">3</button>
+                <button type="submit" class="orange" onclick="dwrite('+')">+</button>
+                <button type="submit" class="black" id="zero" onclick="dwrite('0')">0</button>
+                <button type="submit" class="black" onclick="dwrite('.')">.</button>
+                <button type="submit" class="orange" onclick="calculate()">=</button>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <footer>
+        <h3>Desenvolvido por Gilberth S. Alves</h3>
+        <div id="icons">
+            <a href="https://www.linkedin.com/in/gilberthalves/" target="_blank"><img src="/icons/linke.png" href></a> 
+            <a href="https://github.com/xGilber" target="_blank"><img src="/icons/github.png" href></a> 
+       
+        </div>
+
+     
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
